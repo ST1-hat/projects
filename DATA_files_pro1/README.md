@@ -1,0 +1,1 @@
+This Folder contains Datasets in different file formats for projects that are goin to get implemented in this reposatory
