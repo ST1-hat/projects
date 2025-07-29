@@ -1,0 +1,1433 @@
+[
+  {
+    "prompt_id": "prompt_001",
+    "voice_style": "analyst",
+    "description": "Analyst view analyzing a line chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Sample Line Chart Analysis",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "line",
+      "data_summary": "Summary of a line chart over a certain time period.",
+      "notable_points": [
+        {
+          "label": "Q1",
+          "value": "45000",
+          "description": "Strong start to the year"
+        }
+      ],
+      "correlation_context": "External events like promotions or market shifts may have influenced the data.",
+      "user_goal": "Understand what caused a shift in performance."
+    },
+    "prompt_template": "You're a {{voice_style}} examining a {{chart_type}} chart titled '{{chart_title}}'. The x-axis is {{x_axis}}, and the y-axis is {{y_axis}}. Based on this metadata, summarize the key insights. Highlight anomalies such as {{notable_points}}, include external context like '{{correlation_context}}', and tailor the message to help the user achieve the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_002",
+    "voice_style": "journalist",
+    "description": "Journalist view analyzing a bar chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Sample Bar Chart Analysis",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "bar",
+      "data_summary": "Summary of a bar chart over a certain time period.",
+      "notable_points": [
+        {
+          "label": "August",
+          "value": "3000",
+          "description": "Unexpected traffic drop"
+        }
+      ],
+      "correlation_context": "External events like promotions or market shifts may have influenced the data.",
+      "user_goal": "Learn how seasonal patterns affect metrics."
+    },
+    "prompt_template": "You're a {{voice_style}} examining a {{chart_type}} chart titled '{{chart_title}}'. The x-axis is {{x_axis}}, and the y-axis is {{y_axis}}. Based on this metadata, summarize the key insights. Highlight anomalies such as {{notable_points}}, include external context like '{{correlation_context}}', and tailor the message to help the user achieve the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_003",
+    "voice_style": "mentor",
+    "description": "Mentor view analyzing a pie chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Sample Pie Chart Analysis",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "pie",
+      "data_summary": "Summary of a pie chart over a certain time period.",
+      "notable_points": [
+        {
+          "label": "East Region",
+          "value": "125000",
+          "description": "Highest revenue area"
+        }
+      ],
+      "correlation_context": "External events like promotions or market shifts may have influenced the data.",
+      "user_goal": "Identify and explain performance gaps."
+    },
+    "prompt_template": "You're a {{voice_style}} examining a {{chart_type}} chart titled '{{chart_title}}'. The x-axis is {{x_axis}}, and the y-axis is {{y_axis}}. Based on this metadata, summarize the key insights. Highlight anomalies such as {{notable_points}}, include external context like '{{correlation_context}}', and tailor the message to help the user achieve the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_004",
+    "voice_style": "analyst",
+    "description": "Analyst view analyzing a scatter chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Sample Scatter Chart Analysis",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "scatter",
+      "data_summary": "Summary of a scatter chart over a certain time period.",
+      "notable_points": [
+        {
+          "label": "Product C",
+          "value": "1800",
+          "description": "Lowest unit sales"
+        }
+      ],
+      "correlation_context": "External events like promotions or market shifts may have influenced the data.",
+      "user_goal": "Spot unusual trends and speculate causes."
+    },
+    "prompt_template": "You're a {{voice_style}} examining a {{chart_type}} chart titled '{{chart_title}}'. The x-axis is {{x_axis}}, and the y-axis is {{y_axis}}. Based on this metadata, summarize the key insights. Highlight anomalies such as {{notable_points}}, include external context like '{{correlation_context}}', and tailor the message to help the user achieve the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_005",
+    "voice_style": "journalist",
+    "description": "Journalist view analyzing a area chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Sample Area Chart Analysis",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "area",
+      "data_summary": "Summary of a area chart over a certain time period.",
+      "notable_points": [
+        {
+          "label": "Week 5",
+          "value": "70%",
+          "description": "Peak user engagement"
+        }
+      ],
+      "correlation_context": "External events like promotions or market shifts may have influenced the data.",
+      "user_goal": "Make sense of recent changes in user behavior."
+    },
+    "prompt_template": "You're a {{voice_style}} examining a {{chart_type}} chart titled '{{chart_title}}'. The x-axis is {{x_axis}}, and the y-axis is {{y_axis}}. Based on this metadata, summarize the key insights. Highlight anomalies such as {{notable_points}}, include external context like '{{correlation_context}}', and tailor the message to help the user achieve the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_006",
+    "voice_style": "mentor",
+    "description": "Mentor view analyzing a line chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Sample Line Chart Analysis",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "line",
+      "data_summary": "Summary of a line chart over a certain time period.",
+      "notable_points": [
+        {
+          "label": "Q1",
+          "value": "45000",
+          "description": "Strong start to the year"
+        }
+      ],
+      "correlation_context": "External events like promotions or market shifts may have influenced the data.",
+      "user_goal": "Understand what caused a shift in performance."
+    },
+    "prompt_template": "You're a {{voice_style}} examining a {{chart_type}} chart titled '{{chart_title}}'. The x-axis is {{x_axis}}, and the y-axis is {{y_axis}}. Based on this metadata, summarize the key insights. Highlight anomalies such as {{notable_points}}, include external context like '{{correlation_context}}', and tailor the message to help the user achieve the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_007",
+    "voice_style": "analyst",
+    "description": "Analyst view analyzing a bar chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Sample Bar Chart Analysis",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "bar",
+      "data_summary": "Summary of a bar chart over a certain time period.",
+      "notable_points": [
+        {
+          "label": "August",
+          "value": "3000",
+          "description": "Unexpected traffic drop"
+        }
+      ],
+      "correlation_context": "External events like promotions or market shifts may have influenced the data.",
+      "user_goal": "Learn how seasonal patterns affect metrics."
+    },
+    "prompt_template": "You're a {{voice_style}} examining a {{chart_type}} chart titled '{{chart_title}}'. The x-axis is {{x_axis}}, and the y-axis is {{y_axis}}. Based on this metadata, summarize the key insights. Highlight anomalies such as {{notable_points}}, include external context like '{{correlation_context}}', and tailor the message to help the user achieve the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_008",
+    "voice_style": "journalist",
+    "description": "Journalist view analyzing a pie chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Sample Pie Chart Analysis",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "pie",
+      "data_summary": "Summary of a pie chart over a certain time period.",
+      "notable_points": [
+        {
+          "label": "East Region",
+          "value": "125000",
+          "description": "Highest revenue area"
+        }
+      ],
+      "correlation_context": "External events like promotions or market shifts may have influenced the data.",
+      "user_goal": "Identify and explain performance gaps."
+    },
+    "prompt_template": "You're a {{voice_style}} examining a {{chart_type}} chart titled '{{chart_title}}'. The x-axis is {{x_axis}}, and the y-axis is {{y_axis}}. Based on this metadata, summarize the key insights. Highlight anomalies such as {{notable_points}}, include external context like '{{correlation_context}}', and tailor the message to help the user achieve the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_009",
+    "voice_style": "mentor",
+    "description": "Mentor view analyzing a scatter chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Sample Scatter Chart Analysis",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "scatter",
+      "data_summary": "Summary of a scatter chart over a certain time period.",
+      "notable_points": [
+        {
+          "label": "Product C",
+          "value": "1800",
+          "description": "Lowest unit sales"
+        }
+      ],
+      "correlation_context": "External events like promotions or market shifts may have influenced the data.",
+      "user_goal": "Spot unusual trends and speculate causes."
+    },
+    "prompt_template": "You're a {{voice_style}} examining a {{chart_type}} chart titled '{{chart_title}}'. The x-axis is {{x_axis}}, and the y-axis is {{y_axis}}. Based on this metadata, summarize the key insights. Highlight anomalies such as {{notable_points}}, include external context like '{{correlation_context}}', and tailor the message to help the user achieve the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_010",
+    "voice_style": "analyst",
+    "description": "Analyst view analyzing a area chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Sample Area Chart Analysis",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "area",
+      "data_summary": "Summary of a area chart over a certain time period.",
+      "notable_points": [
+        {
+          "label": "Week 5",
+          "value": "70%",
+          "description": "Peak user engagement"
+        }
+      ],
+      "correlation_context": "External events like promotions or market shifts may have influenced the data.",
+      "user_goal": "Make sense of recent changes in user behavior."
+    },
+    "prompt_template": "You're a {{voice_style}} examining a {{chart_type}} chart titled '{{chart_title}}'. The x-axis is {{x_axis}}, and the y-axis is {{y_axis}}. Based on this metadata, summarize the key insights. Highlight anomalies such as {{notable_points}}, include external context like '{{correlation_context}}', and tailor the message to help the user achieve the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_011",
+    "voice_style": "journalist",
+    "description": "Journalist view analyzing a line chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Sample Line Chart Analysis",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "line",
+      "data_summary": "Summary of a line chart over a certain time period.",
+      "notable_points": [
+        {
+          "label": "Q1",
+          "value": "45000",
+          "description": "Strong start to the year"
+        }
+      ],
+      "correlation_context": "External events like promotions or market shifts may have influenced the data.",
+      "user_goal": "Understand what caused a shift in performance."
+    },
+    "prompt_template": "You're a {{voice_style}} examining a {{chart_type}} chart titled '{{chart_title}}'. The x-axis is {{x_axis}}, and the y-axis is {{y_axis}}. Based on this metadata, summarize the key insights. Highlight anomalies such as {{notable_points}}, include external context like '{{correlation_context}}', and tailor the message to help the user achieve the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_012",
+    "voice_style": "mentor",
+    "description": "Mentor view analyzing a bar chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Sample Bar Chart Analysis",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "bar",
+      "data_summary": "Summary of a bar chart over a certain time period.",
+      "notable_points": [
+        {
+          "label": "August",
+          "value": "3000",
+          "description": "Unexpected traffic drop"
+        }
+      ],
+      "correlation_context": "External events like promotions or market shifts may have influenced the data.",
+      "user_goal": "Learn how seasonal patterns affect metrics."
+    },
+    "prompt_template": "You're a {{voice_style}} examining a {{chart_type}} chart titled '{{chart_title}}'. The x-axis is {{x_axis}}, and the y-axis is {{y_axis}}. Based on this metadata, summarize the key insights. Highlight anomalies such as {{notable_points}}, include external context like '{{correlation_context}}', and tailor the message to help the user achieve the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_013",
+    "voice_style": "analyst",
+    "description": "Analyst view analyzing a pie chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Sample Pie Chart Analysis",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "pie",
+      "data_summary": "Summary of a pie chart over a certain time period.",
+      "notable_points": [
+        {
+          "label": "East Region",
+          "value": "125000",
+          "description": "Highest revenue area"
+        }
+      ],
+      "correlation_context": "External events like promotions or market shifts may have influenced the data.",
+      "user_goal": "Identify and explain performance gaps."
+    },
+    "prompt_template": "You're a {{voice_style}} examining a {{chart_type}} chart titled '{{chart_title}}'. The x-axis is {{x_axis}}, and the y-axis is {{y_axis}}. Based on this metadata, summarize the key insights. Highlight anomalies such as {{notable_points}}, include external context like '{{correlation_context}}', and tailor the message to help the user achieve the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_014",
+    "voice_style": "journalist",
+    "description": "Journalist view analyzing a scatter chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Sample Scatter Chart Analysis",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "scatter",
+      "data_summary": "Summary of a scatter chart over a certain time period.",
+      "notable_points": [
+        {
+          "label": "Product C",
+          "value": "1800",
+          "description": "Lowest unit sales"
+        }
+      ],
+      "correlation_context": "External events like promotions or market shifts may have influenced the data.",
+      "user_goal": "Spot unusual trends and speculate causes."
+    },
+    "prompt_template": "You're a {{voice_style}} examining a {{chart_type}} chart titled '{{chart_title}}'. The x-axis is {{x_axis}}, and the y-axis is {{y_axis}}. Based on this metadata, summarize the key insights. Highlight anomalies such as {{notable_points}}, include external context like '{{correlation_context}}', and tailor the message to help the user achieve the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_015",
+    "voice_style": "mentor",
+    "description": "Mentor view analyzing a area chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Sample Area Chart Analysis",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "area",
+      "data_summary": "Summary of a area chart over a certain time period.",
+      "notable_points": [
+        {
+          "label": "Week 5",
+          "value": "70%",
+          "description": "Peak user engagement"
+        }
+      ],
+      "correlation_context": "External events like promotions or market shifts may have influenced the data.",
+      "user_goal": "Make sense of recent changes in user behavior."
+    },
+    "prompt_template": "You're a {{voice_style}} examining a {{chart_type}} chart titled '{{chart_title}}'. The x-axis is {{x_axis}}, and the y-axis is {{y_axis}}. Based on this metadata, summarize the key insights. Highlight anomalies such as {{notable_points}}, include external context like '{{correlation_context}}', and tailor the message to help the user achieve the goal: '{{user_goal}}'."
+  },
+
+  {
+    "prompt_id": "prompt_016",
+    "voice_style": "journalist",
+    "description": "Journalist view analyzing a line chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Customer Churn Rate by Quarter",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "line",
+      "data_summary": "A line chart exploring customer churn rate by quarter.",
+      "notable_points": [
+        {
+          "label": "Q4",
+          "value": "78%",
+          "description": "Lowest churn rate recorded"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Understand performance across different customer segments."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_017",
+    "voice_style": "mentor",
+    "description": "Mentor view analyzing a bar chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Mobile App Downloads by Country",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "bar",
+      "data_summary": "A bar chart exploring mobile app downloads by country.",
+      "notable_points": [
+        {
+          "label": "India",
+          "value": "45000",
+          "description": "Highest number of downloads"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Analyze efficiency variations across marketing channels."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_018",
+    "voice_style": "analyst",
+    "description": "Analyst view analyzing a pie chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Conversion Rate vs. Traffic Source",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "pie",
+      "data_summary": "A pie chart exploring conversion rate vs. traffic source.",
+      "notable_points": [
+        {
+          "label": "Social Media",
+          "value": "4.2%",
+          "description": "Best conversion rate"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Identify what drives better engagement over time."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_019",
+    "voice_style": "journalist",
+    "description": "Journalist view analyzing a scatter chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Monthly Revenue per Product Line",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "scatter",
+      "data_summary": "A scatter chart exploring monthly revenue per product line.",
+      "notable_points": [
+        {
+          "label": "Product A",
+          "value": "$120K",
+          "description": "Top revenue generator"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Correlate satisfaction scores with regional changes."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_020",
+    "voice_style": "mentor",
+    "description": "Mentor view analyzing a area chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Energy Consumption Across Departments",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "area",
+      "data_summary": "A area chart exploring energy consumption across departments.",
+      "notable_points": [
+        {
+          "label": "Logistics",
+          "value": "1300 kWh",
+          "description": "Unexpected energy spike"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Make sense of anomalies in resource usage."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_021",
+    "voice_style": "analyst",
+    "description": "Analyst view analyzing a line chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "User Retention Over 12 Weeks",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "line",
+      "data_summary": "A line chart exploring user retention over 12 weeks.",
+      "notable_points": [
+        {
+          "label": "Week 2",
+          "value": "92%",
+          "description": "Best retention early on"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Spot peak performers and low performers across products."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_022",
+    "voice_style": "journalist",
+    "description": "Journalist view analyzing a bar chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Average Session Duration by Device",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "bar",
+      "data_summary": "A bar chart exploring average session duration by device.",
+      "notable_points": [
+        {
+          "label": "Tablet",
+          "value": "7 min",
+          "description": "Longest session time"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Compare seasonal behaviors and their business impact."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_023",
+    "voice_style": "mentor",
+    "description": "Mentor view analyzing a pie chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Satisfaction Score by Region",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "pie",
+      "data_summary": "A pie chart exploring satisfaction score by region.",
+      "notable_points": [
+        {
+          "label": "West",
+          "value": "4.5",
+          "description": "Highest satisfaction score"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Evaluate campaign success against investment."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_024",
+    "voice_style": "analyst",
+    "description": "Analyst view analyzing a scatter chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Ad Spend Efficiency Over Time",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "scatter",
+      "data_summary": "A scatter chart exploring ad spend efficiency over time.",
+      "notable_points": [
+        {
+          "label": "March",
+          "value": "$23,000",
+          "description": "Best ad efficiency month"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Pinpoint causes for increased retention."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_025",
+    "voice_style": "journalist",
+    "description": "Journalist view analyzing a area chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Inventory Turnover by Category",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "area",
+      "data_summary": "A area chart exploring inventory turnover by category.",
+      "notable_points": [
+        {
+          "label": "Beverages",
+          "value": "10x",
+          "description": "Fastest inventory turnover"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Study the efficiency of operational units."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_026",
+    "voice_style": "mentor",
+    "description": "Mentor view analyzing a line chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Customer Churn Rate by Quarter",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "line",
+      "data_summary": "A line chart exploring customer churn rate by quarter.",
+      "notable_points": [
+        {
+          "label": "Q4",
+          "value": "78%",
+          "description": "Lowest churn rate recorded"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Understand performance across different customer segments."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_027",
+    "voice_style": "analyst",
+    "description": "Analyst view analyzing a bar chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Mobile App Downloads by Country",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "bar",
+      "data_summary": "A bar chart exploring mobile app downloads by country.",
+      "notable_points": [
+        {
+          "label": "India",
+          "value": "45000",
+          "description": "Highest number of downloads"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Analyze efficiency variations across marketing channels."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_028",
+    "voice_style": "journalist",
+    "description": "Journalist view analyzing a pie chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Conversion Rate vs. Traffic Source",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "pie",
+      "data_summary": "A pie chart exploring conversion rate vs. traffic source.",
+      "notable_points": [
+        {
+          "label": "Social Media",
+          "value": "4.2%",
+          "description": "Best conversion rate"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Identify what drives better engagement over time."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_029",
+    "voice_style": "mentor",
+    "description": "Mentor view analyzing a scatter chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Monthly Revenue per Product Line",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "scatter",
+      "data_summary": "A scatter chart exploring monthly revenue per product line.",
+      "notable_points": [
+        {
+          "label": "Product A",
+          "value": "$120K",
+          "description": "Top revenue generator"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Correlate satisfaction scores with regional changes."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_030",
+    "voice_style": "analyst",
+    "description": "Analyst view analyzing a area chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Energy Consumption Across Departments",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "area",
+      "data_summary": "A area chart exploring energy consumption across departments.",
+      "notable_points": [
+        {
+          "label": "Logistics",
+          "value": "1300 kWh",
+          "description": "Unexpected energy spike"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Make sense of anomalies in resource usage."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_031",
+    "voice_style": "journalist",
+    "description": "Journalist view analyzing a line chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "User Retention Over 12 Weeks",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "line",
+      "data_summary": "A line chart exploring user retention over 12 weeks.",
+      "notable_points": [
+        {
+          "label": "Week 2",
+          "value": "92%",
+          "description": "Best retention early on"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Spot peak performers and low performers across products."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_032",
+    "voice_style": "mentor",
+    "description": "Mentor view analyzing a bar chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Average Session Duration by Device",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "bar",
+      "data_summary": "A bar chart exploring average session duration by device.",
+      "notable_points": [
+        {
+          "label": "Tablet",
+          "value": "7 min",
+          "description": "Longest session time"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Compare seasonal behaviors and their business impact."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_033",
+    "voice_style": "analyst",
+    "description": "Analyst view analyzing a pie chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Satisfaction Score by Region",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "pie",
+      "data_summary": "A pie chart exploring satisfaction score by region.",
+      "notable_points": [
+        {
+          "label": "West",
+          "value": "4.5",
+          "description": "Highest satisfaction score"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Evaluate campaign success against investment."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_034",
+    "voice_style": "journalist",
+    "description": "Journalist view analyzing a scatter chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Ad Spend Efficiency Over Time",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "scatter",
+      "data_summary": "A scatter chart exploring ad spend efficiency over time.",
+      "notable_points": [
+        {
+          "label": "March",
+          "value": "$23,000",
+          "description": "Best ad efficiency month"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Pinpoint causes for increased retention."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_035",
+    "voice_style": "mentor",
+    "description": "Mentor view analyzing a area chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Inventory Turnover by Category",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "area",
+      "data_summary": "A area chart exploring inventory turnover by category.",
+      "notable_points": [
+        {
+          "label": "Beverages",
+          "value": "10x",
+          "description": "Fastest inventory turnover"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Study the efficiency of operational units."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_036",
+    "voice_style": "analyst",
+    "description": "Analyst view analyzing a line chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Customer Churn Rate by Quarter",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "line",
+      "data_summary": "A line chart exploring customer churn rate by quarter.",
+      "notable_points": [
+        {
+          "label": "Q4",
+          "value": "78%",
+          "description": "Lowest churn rate recorded"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Understand performance across different customer segments."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_037",
+    "voice_style": "journalist",
+    "description": "Journalist view analyzing a bar chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Mobile App Downloads by Country",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "bar",
+      "data_summary": "A bar chart exploring mobile app downloads by country.",
+      "notable_points": [
+        {
+          "label": "India",
+          "value": "45000",
+          "description": "Highest number of downloads"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Analyze efficiency variations across marketing channels."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_038",
+    "voice_style": "mentor",
+    "description": "Mentor view analyzing a pie chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Conversion Rate vs. Traffic Source",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "pie",
+      "data_summary": "A pie chart exploring conversion rate vs. traffic source.",
+      "notable_points": [
+        {
+          "label": "Social Media",
+          "value": "4.2%",
+          "description": "Best conversion rate"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Identify what drives better engagement over time."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_039",
+    "voice_style": "analyst",
+    "description": "Analyst view analyzing a scatter chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Monthly Revenue per Product Line",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "scatter",
+      "data_summary": "A scatter chart exploring monthly revenue per product line.",
+      "notable_points": [
+        {
+          "label": "Product A",
+          "value": "$120K",
+          "description": "Top revenue generator"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Correlate satisfaction scores with regional changes."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_040",
+    "voice_style": "journalist",
+    "description": "Journalist view analyzing a area chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Energy Consumption Across Departments",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "area",
+      "data_summary": "A area chart exploring energy consumption across departments.",
+      "notable_points": [
+        {
+          "label": "Logistics",
+          "value": "1300 kWh",
+          "description": "Unexpected energy spike"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Make sense of anomalies in resource usage."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_041",
+    "voice_style": "mentor",
+    "description": "Mentor view analyzing a line chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "User Retention Over 12 Weeks",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "line",
+      "data_summary": "A line chart exploring user retention over 12 weeks.",
+      "notable_points": [
+        {
+          "label": "Week 2",
+          "value": "92%",
+          "description": "Best retention early on"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Spot peak performers and low performers across products."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_042",
+    "voice_style": "analyst",
+    "description": "Analyst view analyzing a bar chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Average Session Duration by Device",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "bar",
+      "data_summary": "A bar chart exploring average session duration by device.",
+      "notable_points": [
+        {
+          "label": "Tablet",
+          "value": "7 min",
+          "description": "Longest session time"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Compare seasonal behaviors and their business impact."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_043",
+    "voice_style": "journalist",
+    "description": "Journalist view analyzing a pie chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Satisfaction Score by Region",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "pie",
+      "data_summary": "A pie chart exploring satisfaction score by region.",
+      "notable_points": [
+        {
+          "label": "West",
+          "value": "4.5",
+          "description": "Highest satisfaction score"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Evaluate campaign success against investment."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_044",
+    "voice_style": "mentor",
+    "description": "Mentor view analyzing a scatter chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Ad Spend Efficiency Over Time",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "scatter",
+      "data_summary": "A scatter chart exploring ad spend efficiency over time.",
+      "notable_points": [
+        {
+          "label": "March",
+          "value": "$23,000",
+          "description": "Best ad efficiency month"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Pinpoint causes for increased retention."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_045",
+    "voice_style": "analyst",
+    "description": "Analyst view analyzing a area chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Inventory Turnover by Category",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "area",
+      "data_summary": "A area chart exploring inventory turnover by category.",
+      "notable_points": [
+        {
+          "label": "Beverages",
+          "value": "10x",
+          "description": "Fastest inventory turnover"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Study the efficiency of operational units."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_046",
+    "voice_style": "journalist",
+    "description": "Journalist view analyzing a line chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Customer Churn Rate by Quarter",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "line",
+      "data_summary": "A line chart exploring customer churn rate by quarter.",
+      "notable_points": [
+        {
+          "label": "Q4",
+          "value": "78%",
+          "description": "Lowest churn rate recorded"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Understand performance across different customer segments."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_047",
+    "voice_style": "mentor",
+    "description": "Mentor view analyzing a bar chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Mobile App Downloads by Country",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "bar",
+      "data_summary": "A bar chart exploring mobile app downloads by country.",
+      "notable_points": [
+        {
+          "label": "India",
+          "value": "45000",
+          "description": "Highest number of downloads"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Analyze efficiency variations across marketing channels."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_048",
+    "voice_style": "analyst",
+    "description": "Analyst view analyzing a pie chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Conversion Rate vs. Traffic Source",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "pie",
+      "data_summary": "A pie chart exploring conversion rate vs. traffic source.",
+      "notable_points": [
+        {
+          "label": "Social Media",
+          "value": "4.2%",
+          "description": "Best conversion rate"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Identify what drives better engagement over time."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_049",
+    "voice_style": "journalist",
+    "description": "Journalist view analyzing a scatter chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Monthly Revenue per Product Line",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "scatter",
+      "data_summary": "A scatter chart exploring monthly revenue per product line.",
+      "notable_points": [
+        {
+          "label": "Product A",
+          "value": "$120K",
+          "description": "Top revenue generator"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Correlate satisfaction scores with regional changes."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_050",
+    "voice_style": "mentor",
+    "description": "Mentor view analyzing a area chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Energy Consumption Across Departments",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "area",
+      "data_summary": "A area chart exploring energy consumption across departments.",
+      "notable_points": [
+        {
+          "label": "Logistics",
+          "value": "1300 kWh",
+          "description": "Unexpected energy spike"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Make sense of anomalies in resource usage."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_051",
+    "voice_style": "analyst",
+    "description": "Analyst view analyzing a line chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "User Retention Over 12 Weeks",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "line",
+      "data_summary": "A line chart exploring user retention over 12 weeks.",
+      "notable_points": [
+        {
+          "label": "Week 2",
+          "value": "92%",
+          "description": "Best retention early on"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Spot peak performers and low performers across products."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_052",
+    "voice_style": "journalist",
+    "description": "Journalist view analyzing a bar chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Average Session Duration by Device",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "bar",
+      "data_summary": "A bar chart exploring average session duration by device.",
+      "notable_points": [
+        {
+          "label": "Tablet",
+          "value": "7 min",
+          "description": "Longest session time"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Compare seasonal behaviors and their business impact."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_053",
+    "voice_style": "mentor",
+    "description": "Mentor view analyzing a pie chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Satisfaction Score by Region",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "pie",
+      "data_summary": "A pie chart exploring satisfaction score by region.",
+      "notable_points": [
+        {
+          "label": "West",
+          "value": "4.5",
+          "description": "Highest satisfaction score"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Evaluate campaign success against investment."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_054",
+    "voice_style": "analyst",
+    "description": "Analyst view analyzing a scatter chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Ad Spend Efficiency Over Time",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "scatter",
+      "data_summary": "A scatter chart exploring ad spend efficiency over time.",
+      "notable_points": [
+        {
+          "label": "March",
+          "value": "$23,000",
+          "description": "Best ad efficiency month"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Pinpoint causes for increased retention."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_055",
+    "voice_style": "journalist",
+    "description": "Journalist view analyzing a area chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Inventory Turnover by Category",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "area",
+      "data_summary": "A area chart exploring inventory turnover by category.",
+      "notable_points": [
+        {
+          "label": "Beverages",
+          "value": "10x",
+          "description": "Fastest inventory turnover"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Study the efficiency of operational units."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_056",
+    "voice_style": "mentor",
+    "description": "Mentor view analyzing a line chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Customer Churn Rate by Quarter",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "line",
+      "data_summary": "A line chart exploring customer churn rate by quarter.",
+      "notable_points": [
+        {
+          "label": "Q4",
+          "value": "78%",
+          "description": "Lowest churn rate recorded"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Understand performance across different customer segments."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_057",
+    "voice_style": "analyst",
+    "description": "Analyst view analyzing a bar chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Mobile App Downloads by Country",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "bar",
+      "data_summary": "A bar chart exploring mobile app downloads by country.",
+      "notable_points": [
+        {
+          "label": "India",
+          "value": "45000",
+          "description": "Highest number of downloads"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Analyze efficiency variations across marketing channels."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_058",
+    "voice_style": "journalist",
+    "description": "Journalist view analyzing a pie chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Conversion Rate vs. Traffic Source",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "pie",
+      "data_summary": "A pie chart exploring conversion rate vs. traffic source.",
+      "notable_points": [
+        {
+          "label": "Social Media",
+          "value": "4.2%",
+          "description": "Best conversion rate"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Identify what drives better engagement over time."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_059",
+    "voice_style": "mentor",
+    "description": "Mentor view analyzing a scatter chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Monthly Revenue per Product Line",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "scatter",
+      "data_summary": "A scatter chart exploring monthly revenue per product line.",
+      "notable_points": [
+        {
+          "label": "Product A",
+          "value": "$120K",
+          "description": "Top revenue generator"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Correlate satisfaction scores with regional changes."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_060",
+    "voice_style": "analyst",
+    "description": "Analyst view analyzing a area chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Energy Consumption Across Departments",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "area",
+      "data_summary": "A area chart exploring energy consumption across departments.",
+      "notable_points": [
+        {
+          "label": "Logistics",
+          "value": "1300 kWh",
+          "description": "Unexpected energy spike"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Make sense of anomalies in resource usage."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_061",
+    "voice_style": "journalist",
+    "description": "Journalist view analyzing a line chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "User Retention Over 12 Weeks",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "line",
+      "data_summary": "A line chart exploring user retention over 12 weeks.",
+      "notable_points": [
+        {
+          "label": "Week 2",
+          "value": "92%",
+          "description": "Best retention early on"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Spot peak performers and low performers across products."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_062",
+    "voice_style": "mentor",
+    "description": "Mentor view analyzing a bar chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Average Session Duration by Device",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "bar",
+      "data_summary": "A bar chart exploring average session duration by device.",
+      "notable_points": [
+        {
+          "label": "Tablet",
+          "value": "7 min",
+          "description": "Longest session time"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Compare seasonal behaviors and their business impact."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_063",
+    "voice_style": "analyst",
+    "description": "Analyst view analyzing a pie chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Satisfaction Score by Region",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "pie",
+      "data_summary": "A pie chart exploring satisfaction score by region.",
+      "notable_points": [
+        {
+          "label": "West",
+          "value": "4.5",
+          "description": "Highest satisfaction score"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Evaluate campaign success against investment."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_064",
+    "voice_style": "journalist",
+    "description": "Journalist view analyzing a scatter chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Ad Spend Efficiency Over Time",
+      "x_axis": "Time",
+      "y_axis": "Value",
+      "chart_type": "scatter",
+      "data_summary": "A scatter chart exploring ad spend efficiency over time.",
+      "notable_points": [
+        {
+          "label": "March",
+          "value": "$23,000",
+          "description": "Best ad efficiency month"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Pinpoint causes for increased retention."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  },
+  {
+    "prompt_id": "prompt_065",
+    "voice_style": "mentor",
+    "description": "Mentor view analyzing a area chart for storytelling insights.",
+    "input_schema": {
+      "chart_title": "Inventory Turnover by Category",
+      "x_axis": "Category",
+      "y_axis": "Value",
+      "chart_type": "area",
+      "data_summary": "A area chart exploring inventory turnover by category.",
+      "notable_points": [
+        {
+          "label": "Beverages",
+          "value": "10x",
+          "description": "Fastest inventory turnover"
+        }
+      ],
+      "correlation_context": "Relevant external events or shifts in user behavior may explain these changes.",
+      "user_goal": "Study the efficiency of operational units."
+    },
+    "prompt_template": "You're a {{voice_style}} analyzing a {{chart_type}} chart titled '{{chart_title}}'. With {{x_axis}} on the x-axis and {{y_axis}} on the y-axis, summarize the most notable insights. Focus on elements like {{notable_points}}, reflect on any correlations such as '{{correlation_context}}', and structure your response to meet the goal: '{{user_goal}}'."
+  }
+]
