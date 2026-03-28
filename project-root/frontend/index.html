@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swaroop Tripathy | Portfolio</title>
+    <link rel="icon" href="images\9287479.jpg" type="image/x-icon">
+    <!-- Google Fonts: Space Grotesk & Rajdhani -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-profile">
+            <img src="images/images/my_profile.jpg" alt="Swaroop Tripathy" class="nav-avatar">
+        </div>
+        <ul class="nav-links">
+            <li class="dropdown">
+                <a href="#works" class="dropbtn">My Works <span class="arrow">▼</span></a>
+                <div class="dropdown-content">
+                    <a href="projects.html">Projects</a>
+                    <a href="internships.html">Internships</a>
+                    <a href="tools.html">Tools</a>
+                    <a href="accomplishments.html">Accomplishments</a>
+                </div>
+            </li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#profile">Profile</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <canvas id="particles-canvas"></canvas>
+            <div class="hero-content">
+                <h1 class="glitch-text" data-text="Swaroop Tripathy">Swaroop Tripathy</h1>
+                <p class="subtitle">Creative Developer & Tech Enthusiast</p>
+            </div>
+            <div class="hero-background-elements">
+                <div class="orb orb-1"></div>
+                <div class="orb orb-2"></div>
+            </div>
+        </section>
+
+        <section id="works" class="section-container">
+            <h2 class="section-title">My Works</h2>
+            <div class="works-grid">
+                <a href="projects.html" class="work-card summary-card">
+                    <h3>Projects</h3>
+                    <div class="count" id="project-count">3</div>
+                    <p>Explore my recent builds</p>
+                </a>
+                <a href="internships.html" class="work-card summary-card">
+                    <h3>Internships</h3>
+                    <div class="count" id="internship-count">1</div>
+                    <p>Professional experience</p>
+                </a>
+                <a href="tools.html" class="work-card summary-card">
+                    <h3>Tools</h3>
+                    <div class="count" id="tool-count">13</div>
+                    <p>Technologies I use</p>
+                </a>
+                <a href="accomplishments.html" class="work-card summary-card">
+                    <h3>Accomplishments</h3>
+                    <div class="count" id="cert-count">7</div>
+                    <p>Awards & Achievements</p>
+                </a>
+            </div>
+        </section>
+
+        <section id="about" class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-item">
+                    <h3>Overview</h3>
+                    <p>Persuing B.Tech in Computer Science and Engineering, student at KIIT University (2023–2027) with
+                        a strong foundation in programming and problem-solving. Skilled in Machine Learning, and Data
+                        science and analytics. I aim to apply my skills to drive innovation and enhance organisational
+                        growth and always eager to learn.</p>
+                </div>
+                <div class="about-item">
+                    <h3>Hobbies</h3>
+                    <p>I am athletic, passionately try to stay fit and maintain good physique. Originally I love
+                        researching and studying physics, maths and astronomical sciences. I can play tabla and I like
+                        to watch anime.</p>
+                </div>
+                <div class="about-item">
+                    <h3>Speciality</h3>
+                    <p>I seek to learn from everything, observe and make my perceptions.</p>
+                </div>
+                <div class="about-item">
+                    <h3>Education</h3>
+                    <ul class="edu-list">
+                        <li><strong>2021 - 2023 High School:</strong> Kendriya Vidyalaya Cuttack (Percentage: 85.5%)
+                        </li>
+                        <li><strong>2023 - 2027 B.Tech:</strong> KIIT University (CSE)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="profile" class="section-container">
+            <h2 class="section-title">Profile</h2>
+            <div class="profile-card">
+                <div class="profile-header">
+                    <div class="profile-pic">
+                        <!-- Profile image -->
+                        <img src="images/my_profile.jpg" alt="Swaroop Tripathy">
+                    </div>
+                </div>
+                <div class="profile-details">
+                    <p><strong>Name:</strong> Swaroop Tripathy</p>
+                    <p><strong>Focus:</strong> Data Science, Machine Learning, Quantum Computing</p>
+                    <p><strong>Location:</strong> Digital World</p>
+                    <div class="social-links">
+                        <a href="https://github.com/ST1-hat" class="social-link" target="_blank">GitHub</a>
+                        <a href="https://www.linkedin.com/in/swaroop-tripathy-a061a4366/" class="social-link"
+                            target="_blank">LinkedIn</a>
+                        <a href="mailto:itswaroop02@gmail.com" class="social-link">Email</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hidden file input for profile picture upload -->
+        <input type="file" id="profile-upload" accept="image/*" style="display: none;">
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Swaroop Tripathy. Crafted with <span class="heart">❤</span> in Code.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
